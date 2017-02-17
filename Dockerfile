@@ -2,5 +2,5 @@ FROM rsvoboda/fedora-maven
 
 MAINTAINER Rostislav Svoboda <rsvoboda@redhat.com>
 
-ADD README.md /README.md
-
+COPY scripts/do-build.sh  /do-build.sh
+COPY scripts/settings.xml  /settings.xml
